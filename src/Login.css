@@ -1,0 +1,32 @@
+.login {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.login > div > img {
+  object-fit: contain;
+  height: 150px;
+  max-width: 200px;
+}
+
+.login > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.login > span {
+  width: 300px;
+  color: black;
+  font-weight: 800;
+  cursor: pointer;
+  padding-left: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 260px;
+}
+
+.login > span:hover {
+  background-color: white;
+  color: #2e81f4;
+}

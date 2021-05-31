@@ -1,0 +1,11 @@
+.feed {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-direction: column;
+}
+@media screen and (max-width: 992px) {
+  .feed {
+    margin-right: 1000px;
+  }
+}
